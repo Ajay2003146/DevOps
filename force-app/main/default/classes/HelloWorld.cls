@@ -8,7 +8,7 @@ public with sharing class HelloWorld {
 
         integer b=2;
         integer c =a+b;
-        System.debug('Sum of A and B is '+c);
+        System.debug('Sum of A and B are '+c);
 
     }
 }

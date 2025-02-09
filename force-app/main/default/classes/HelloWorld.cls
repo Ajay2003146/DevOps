@@ -1,7 +1,9 @@
 public with sharing class HelloWorld {
     public HelloWorld() {
         integer a=1;
-        System.debug('hello all'+a);
+        Integer  b=2;
+        Integer c= b-a;
+        System.debug('sub b-a is '+c);
 
     }
 }
